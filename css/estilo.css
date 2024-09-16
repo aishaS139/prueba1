@@ -1,0 +1,31 @@
+*{margin: 0px;}
+.contenedor-flexible
+{
+	background-color: aquamarine;
+	padding: 70px;
+	display: flex;
+	flex-direction: row;
+	/*flex-direction: column;*/
+	flex-wrap: wrap-reverse;
+	flex-flow: column;
+}
+.item-flexible-1
+{
+	background-color: green;
+	margin: 5px;
+	font-size: 30px;
+}
+.item-flexible
+{
+	background-color: skyblue;
+	margin: 5px;
+	font-size: 30px;
+	flex-direction: column;
+}
+.item
+{
+	background-color: rosybrown;
+	margin: 5px;
+	font-size: 30px;
+}
+}
